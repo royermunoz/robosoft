@@ -1,8 +1,6 @@
 // ignore_for_file: file_names, unnecessary_const, unnecessary_new
 import 'package:alan_voice/alan_voice.dart';
-import 'package:flutter/cupertino.dart';
 import 'package:flutter/material.dart';
-import 'package:cloud_firestore/cloud_firestore.dart';
 import 'package:firebase_auth/firebase_auth.dart';
 import 'package:robosoft/auth/loginScreen.dart';
 
