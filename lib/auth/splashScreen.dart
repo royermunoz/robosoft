@@ -1,7 +1,6 @@
 // ignore_for_file: file_names
 import 'dart:async';
 import 'package:flutter/material.dart';
-import 'package:robosoft/speech_to_text_demo.dart';
 import '../mainPage.dart';
 import 'loginScreen.dart';
 
@@ -20,7 +19,7 @@ class _SplashScreenState extends State<SplashScreen> {
     Timer(
         const Duration(seconds: 3),
         () => Navigator.of(context).pushReplacement(MaterialPageRoute(
-            builder: (BuildContext context) => SpeechToTextDemo())));
+            builder: (BuildContext context) => const MainPage())));
   }
 
   @override

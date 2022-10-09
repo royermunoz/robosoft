@@ -17,7 +17,7 @@ class _MainPageState extends State<MainPage> {
   _MainPageState() {
     /// Init Alan Button with project key from Alan Studio
     AlanVoice.addButton(
-        "cec3bfa4efdf8c29d4a1023b99f443c72e956eca572e1d8b807a3e2338fdd0dc/stage");
+        "59599ce2b5a93f692bceb1be03d44acc2e956eca572e1d8b807a3e2338fdd0dc/stage");
 
     /// Handle commands from Alan Studio
     AlanVoice.onCommand.add((command) {
